@@ -1,6 +1,6 @@
 import '../styles/components/controltime.sass';
 
-export const ControlPage: React.FC = () => {
+const ControlPage: React.FC = () => {
   return (
     <>
       <div className="control_container flex-center no-margin-padding fullscreen">
@@ -86,3 +86,5 @@ export const ControlPage: React.FC = () => {
     </>
   );
 };
+
+export default ControlPage;
